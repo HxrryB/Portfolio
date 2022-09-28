@@ -138,3 +138,55 @@ nav ul li a{
     margin-right: 1vh;
     padding: 1vh;
 }
+
+.hireForm{
+    background: #2C0707;
+    width: 100%;
+}
+
+form{
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.txtLabels{
+    color: #7F61BE;
+    font-size: 2.5vh;
+    margin-right: 10vh;
+}
+.txtRad{
+    color: #7F61BE;
+    font-size: 2.5vh;
+    margin-right: 10vh;
+}
+#fname, #lname{
+    margin-bottom: 3vh;
+    height: 2.7vh;
+    width: 30vh;
+    margin-left: 2.3vh;
+}
+#req{
+    width: 1.7vh;
+    height: 1.7vh;
+}
+
+.hireBtn{
+    position: relative;
+    bottom: 20vh;
+    left: 125vh;
+    border: none;
+    margin: 2vh 1vh;
+    padding: 2vh 5vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2vh;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background: #599AA9;
+    color: #16253C;
+}
+.hireBtn:hover{
+    background: #7F5FC2;
+    color: #C3C8CE;
+    cursor: pointer;
+}
