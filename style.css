@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+   }
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    padding: 1vh;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-top: 1vh;
+}
+nav ul li:hover{
+    background: grey;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#logo{
+    width: 4vh;
+    margin-right: auto;
+}
