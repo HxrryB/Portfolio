@@ -190,3 +190,12 @@ form{
     color: #C3C8CE;
     cursor: pointer;
 }
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 2vh;
+    font-weight: bold;
+    font-size: 2vh;
+}
