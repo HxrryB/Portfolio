@@ -50,3 +50,59 @@ nav ul li a{
     font-size: 250%;
     font-weight: bold;
 }
+
+.info{
+    background: black;
+    width: 100%;
+    vertical-align: middle;
+    min-height: 3vh;
+    overflow: hidden;
+}
+#join{
+    margin:2vh;
+    width: 20%;
+    float: left;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.myWork{
+    position: relative;
+    left: 100vh;
+    border: none;
+    margin: 2vh 1vh;
+    padding: 2vh 4vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4vh;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background: #F0E9E9;
+    color: #1A3050;
+}
+.myWork:hover{
+    background: #796B6B;
+    color: #254168;
+    cursor: pointer;
+}
+
+.hireMe{
+    position: relative;
+    left: 100vh;
+    border: none;
+    margin: 2vh 1vh;
+    padding: 2vh 5vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4vh;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background: #F0E9E9;
+    color: #1A3050;
+}
+.hireMe:hover{
+    background: #796B6B;
+    color: #254168;
+    cursor: pointer;
+}
