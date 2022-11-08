@@ -1,0 +1,119 @@
+@media (min-width: 688px) and (max-width:1031px){
+    .info{
+        background: black;
+        width: 100%;
+        vertical-align: middle;
+        min-height: 1.5vh;
+        overflow: hidden;
+    }
+    #join{
+        margin:2vh;
+        width: 20%;
+        float: left;
+        font-size: 1.5vh;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .myWork{
+        margin: 2vh 1vh;
+        padding: 1vh 2vh;
+        font-size: 2.5vh;
+    }
+    .hireMe{
+        margin: 2vh 1vh;
+        padding: 1vh 3.2vh;
+        font-size: 2.5vh;
+    }
+    .hireBtn{
+        margin: 2vh 1vh;
+        padding: 1vh 4vh;
+    }
+    .txtRad{
+        font-size: 2vh;
+    }
+    .myWorkA{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width:896px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        color: white;
+        justify-content: center;
+    }
+    .iconDiv{
+        align-items: center;
+    }
+    .icon{
+        padding: 10px;
+        padding-left: 30px;
+        position: relative;
+        left: 40%;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        padding: 10px;
+    }
+    nav ul li{
+        font-size: 130%;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        padding-top: 1vh;
+    }
+    .info{
+        background: black;
+        width: 100%;
+        vertical-align: middle;
+        min-height: 1.5vh;
+        overflow: hidden;
+    }
+    #join{
+        margin:2vh;
+        width: 20%;
+        float: left;
+        font-size: 1.4vh;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .myWork{
+        margin: 2vh 1vh;
+        padding: 1vh 2vh;
+        font-size: 2vh;
+    }
+    .hireMe{
+        margin: 2vh 1vh;
+        padding: 1vh 3.2vh;
+        font-size: 2vh;
+    }
+    .hireBtn{
+        margin: 2vh 1vh;
+        padding: 1vh 4vh;
+        font-size: 2vh;
+    }
+    .txtRad{
+        font-size: 2vh;
+    }
+    .myWorkA{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .txtRad{
+        font-size: 1.7vh;
+    }
+    .txtLabels{
+        font-size: 2.5vh;
+        position: relative;
+        left: 6%;
+    }
+}

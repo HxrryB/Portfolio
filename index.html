@@ -5,31 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav id="nav-bar" style="background: black;">   
-        <ul>
-            <img src="curvature.png" alt="logo" id="logo">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>        
+        <nav id="navbar" style="background: black;">   
+            <div class="iconDiv">
+                <img class="icon" src="curvature.png" alt="logo" id="logo">
+            </div class="iconDiv">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
 
+<main>
     <div class="container">
         <img src="ITProfessional.jpg" alt="" id="prof" width="100%">
         <div class="name"><p id="nmTxt">Harry James <br> Game/Website Designer</p></div>
     </div>
-
+    
     <div class="info">
 
-        <p id="join">Join me if you're looking for IT design solutions and want them delivered in a professional and artistic manner.</p>
+            <p id="join">Join me if you're looking for IT design solutions and want them delivered in a professional and artistic manner.</p>
 
-        <a type="button" style="text-decoration: none;" class="myWork" href="#myWorkId">My Work</a><br>
-        <a type="button" style="text-decoration: none;" class="hireMe" href="#hireMeId">Hire Me</a>
-
+            <a type="button" style="text-decoration: none;" class="myWork" href="#myWorkId">My Work</a><br>
+            <a type="button" style="text-decoration: none;" class="hireMe" href="#hireMeId">Hire Me</a>
+   
     </div>
 
     <div class="myWorkA" id="myWorkId">
@@ -43,7 +49,7 @@
 
     <div class="hireForm" id="hireMeId">
         
-        <h1 style="text-align: center; padding: 1vh; color: #7F61BE; 
+        <h1 style="text-align: center; padding: 1vh; color: white; 
         font-weight: bold; font-size: 4vh;">Hire Me</h1>
 
         <form>
@@ -55,20 +61,21 @@
 
             <span class="txtLabels">Requirement</span>
 
-            <input type="radio" id="req" name="requirement" value="Game design">
-            <label class="txtRad" for="req">Game design</label>
+            <input type="radio" id="req1" name="requirement" value="Game design">
+            <label class="txtRad" for="req1">Game design</label>
 
-            <input type="radio" id="req" name="requirement" value="Web design">
-            <label class="txtRad"for="req">web design</label><br>
+            <input type="radio" id="req2" name="requirement" value="Web design">
+            <label class="txtRad"for="req2">web design</label><br>
+
+            <button class="hireBtn">Hire</button>
         </form>
 
-        <button class="hireBtn">Hire</button>
+        
 
     </div>
-
+</main>
     <footer>
         <p>Copyrights@Harry</p>
     </footer>
-
 </body>
 </html>
