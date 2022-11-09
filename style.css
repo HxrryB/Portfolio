@@ -212,3 +212,45 @@ footer{
     font-weight: bold;
     font-size: 2vh;
 }
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.off{
+    background-color: #16253C;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    opacity: 0;
+    background: #b197fc;
+    border-radius: 50%;
+    animation: pulsate 3s infinite cubic-bezier(.40,.10,.89,.33);
+}
+@keyframes pulsate{
+    from{
+        transform: scale(0.5,0.5);
+        opacity: 5;
+    }
+    to{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+
+.offCont{
+
+}
+.fifty{
+    color: white;
+    position: inherit;
+    top: 40%;
+    left: 13%
+}
+
+
