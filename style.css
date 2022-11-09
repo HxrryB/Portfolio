@@ -100,6 +100,8 @@ nav ul li a{
     background: #796B6B;
     color: #254168;
     cursor: pointer;
+    box-shadow: 2px 2px 25px  white;
+    font-size: 3.7vh;
 }
 
 .hireMe{
@@ -118,6 +120,8 @@ nav ul li a{
     background: #796B6B;
     color: #254168;
     cursor: pointer;
+    box-shadow: 2px 2px 25px  white;
+    font-size: 3.7vh;
 }
 
 .myWorkA{
@@ -203,6 +207,8 @@ form{
     background: #7F5FC2;
     color: #C3C8CE;
     cursor: pointer;
+    box-shadow: 2px 2px 25px  black;
+    font-size: 3.7vh;
 }
 footer{
     background: black;
@@ -211,13 +217,6 @@ footer{
     padding: 2vh;
     font-weight: bold;
     font-size: 2vh;
-}
-
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 .off{
@@ -243,9 +242,6 @@ footer{
     }
 }
 
-.offCont{
-
-}
 .fifty{
     color: white;
     position: inherit;
